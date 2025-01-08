@@ -3,7 +3,7 @@ import Navbar from "../components/Navbars/Navbar"
 import Footer from "../components/Footer/Footer"
 import Cards from '../components/Cards/Cards'
 import Collections from '../components/Collections/Collections'
-import Localities from '../components/localities/Localities'
+import Locations from '../components/Locations/Locations'
 import GetApp from '../components/GetApp/GetApp'
 import Faqs from '../components/Faqs/Faqs'
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
     <div className='lg:w-[75%] w-full px-4 lg:px-0 mx-auto'>
     <Cards></Cards>
     <Collections/>
-    <Localities/>
+    <Locations/>
   
     </div>
     <div className='bg-[#FFFBF7]'>
